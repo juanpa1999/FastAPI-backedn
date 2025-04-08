@@ -35,6 +35,13 @@ Este proyecto es una aplicación backend desarrollada con [FastAPI](https://fast
 
     Abre tu navegador y ve a [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) para interactuar con la API utilizando la interfaz proporcionada por Swagger UI.
 
+5. **Desplegar base de datos**:
+
+    ```bash
+    cd FastAPI-backedn/internal
+    docker compose up -d
+    ```
+
 ## Endpoints de la API
 
 - **Crear usuario**
